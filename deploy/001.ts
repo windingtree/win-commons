@@ -3,7 +3,7 @@ import { DeployFunction } from 'hardhat-deploy/types';
 import { ethers } from 'hardhat';
 
 const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
- const { deployments, getNamedAccounts } = hre;
+  const { deployments, getNamedAccounts } = hre;
   const { deploy } = deployments;
 
   const { deployer, alice, bob, carol } = await getNamedAccounts();
@@ -26,10 +26,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     const safeFactory = await ethers.getContractFactory('MockGnosisSafe');
     const safe = safeFactory.attach(mockGnosisSafe.address);
 
-    await Promise.all([alice, bob, carol].map(
-      address =>
-      safe.setOwner(address, { from: deployer })
-    ));
+    await Promise.all([alice, bob, carol].map((address) => safe.setOwner(address, { from: deployer })));
   }
 };
 

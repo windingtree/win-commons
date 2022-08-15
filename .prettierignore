@@ -2,3 +2,7 @@ cache
 coverage
 node_modules
 .github
+dist
+tsconfig-build.json
+tsconfig.json
+artifacts

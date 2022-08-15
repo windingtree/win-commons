@@ -15,7 +15,7 @@
     "commit": "git-cz -S",
     "changelog": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
     "lint": "npx eslint . --ext .ts && npx prettier -c .",
-    "prettier": "npx prettier -w src test README.md .eslintrc",
+    "prettier": "npx prettier -w deploy src test README.md .eslintrc hardhat.config.ts",
     "clean": "rm -rf dist",
     "build": "yarn clean && yarn tsc -p tsconfig-build.json",
     "test": "TESTING=true hardhat test"

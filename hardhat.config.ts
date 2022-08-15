@@ -20,6 +20,6 @@ export default {
       hardfork: 'london',
       saveDeployments: false,
       tags: ['local']
-    },
+    }
   }
 };
