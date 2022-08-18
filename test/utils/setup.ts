@@ -1,6 +1,7 @@
+import type { providers } from 'ethers';
 import { ethers, deployments } from 'hardhat';
 
-export const provider = ethers.provider;
+export const provider = ethers.provider as unknown as providers.JsonRpcProvider;
 
 export const getSigners = ethers.getSigners;
 

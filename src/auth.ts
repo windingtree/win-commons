@@ -36,10 +36,7 @@ export const buildSignatureDomain = (chainId: number): SignatureDomain => ({
   chainId
 });
 
-export const createAuthSignature = async (
-  provider: providers.JsonRpcProvider | providers.Web3Provider,
-  secret: string
-): Promise<string> => {
+export const createAuthSignature = async (provider: providers.JsonRpcProvider, secret: string): Promise<string> => {
   const { chainId } = await provider.getNetwork();
   const signer = provider.getSigner();
   const signerAddress = await signer.getAddress();
@@ -48,7 +45,7 @@ export const createAuthSignature = async (
 };
 
 export const validateAuthSignature = async (
-  provider: providers.JsonRpcProvider | providers.Web3Provider,
+  provider: providers.JsonRpcProvider,
   secret: string,
   account: string,
   signature: string

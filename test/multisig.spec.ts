@@ -31,7 +31,7 @@ describe('Multisig', () => {
 
     it('should return an empty array for account', async () => {
       const owners = await getOwners(account, provider);
-      expect(owners).to.be.an('array').to.lengthOf(0);
+      expect(owners).to.be.an('array').to.lengthOf(1).to.include(account);
     });
   });
 });
