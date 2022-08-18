@@ -1,15 +1,5 @@
-import { providers, utils } from 'ethers';
-
-export interface SignatureValue {
-  wallet: string;
-  secret: string;
-}
-
-export interface SignatureDomain {
-  name: string;
-  version: string;
-  chainId: number;
-}
+import type { Provider, SignatureValue, SignatureDomain } from './types';
+import { utils } from 'ethers';
 
 // A signature types
 export const types = {
@@ -36,7 +26,7 @@ export const buildSignatureDomain = (chainId: number): SignatureDomain => ({
   chainId
 });
 
-export const createAuthSignature = async (provider: providers.JsonRpcProvider, secret: string): Promise<string> => {
+export const createAuthSignature = async (provider: Provider, secret: string): Promise<string> => {
   const { chainId } = await provider.getNetwork();
   const signer = provider.getSigner();
   const signerAddress = await signer.getAddress();
@@ -45,7 +35,7 @@ export const createAuthSignature = async (provider: providers.JsonRpcProvider, s
 };
 
 export const validateAuthSignature = async (
-  provider: providers.JsonRpcProvider,
+  provider: Provider,
   secret: string,
   account: string,
   signature: string

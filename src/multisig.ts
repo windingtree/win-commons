@@ -1,15 +1,16 @@
-import { Contract, providers } from 'ethers';
+import type { Provider } from './types';
+import { Contract } from 'ethers';
 
 export const safeAbi = ['function getOwners() public view returns (address[] memory)'];
 
 // Returns true if given account address is contract
-export const isContract = async (address: string, provider: providers.JsonRpcProvider) => {
+export const isContract = async (address: string, provider: Provider) => {
   const code = await provider.getCode(address);
   return code !== '0x';
 };
 
 // Returns owners of the Safe wallet OR array with original address
-export const getOwners = async (address: string, provider: providers.JsonRpcProvider): Promise<string[]> => {
+export const getOwners = async (address: string, provider: Provider): Promise<string[]> => {
   const defaultAddresses = [address];
   try {
     if (await isContract(address, provider)) {
