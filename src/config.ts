@@ -72,7 +72,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         }
       ]
     },
-    mode: ['dev', 'stage']
+    mode: ['dev']
   },
   {
     name: 'Sokol Testnet',
@@ -137,7 +137,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         }
       ]
     },
-    mode: ['dev', 'stage']
+    mode: ['stage']
   }
 ]);
 
