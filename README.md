@@ -8,6 +8,17 @@ A library of common components for the Win.so project
 yarn add @windingtree/win-commons
 ```
 
+## Shared config
+
+```typescript
+import { config } from '@windingtree/win-commons';
+
+// config.defaultZone
+// config.allowedNetworks
+// config.getNetworkInfo // helper, returns a network by its chainId
+// config.getNetworksByMode // helper, returns networks by the mode (dev, stage, prod)
+```
+
 ## Multisig helpers
 
 ```typescript
