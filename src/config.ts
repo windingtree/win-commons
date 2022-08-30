@@ -380,6 +380,6 @@ export const getNetworkInfo = (chainId: number): NetworkInfo => {
   return Object.freeze(chain);
 };
 
-// Returns 'requested' OR 'prod' networks of type
+// Returns 'requested' networks of type
 export const getNetworksByMode = (mode: NetworkMode): readonly NetworkInfo[] =>
-  Object.freeze(allowedNetworks.filter((n) => n.mode.includes(mode) || n.mode.includes('prod')));
+  Object.freeze(allowedNetworks.filter((n) => n.mode.includes(mode)));
