@@ -14,7 +14,7 @@ export interface SignatureDomain {
 }
 
 // currency the asset is pegged to
-export const assetsCurrencies = ['EUR', 'USD', 'JPY'];
+export const assetsCurrencies = ['EUR', 'USD', 'JPY', 'PLN', 'CHF', 'GBP', 'AUD', 'CAD', 'JPY', 'SEK', 'SDG'];
 
 export type AssetCurrency = typeof assetsCurrencies[number];
 
