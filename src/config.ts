@@ -364,6 +364,116 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           native: false,
           permit: true,
           currency: 'PLN'
+        },
+        {
+          name: 'Jarvis Synthetic Bulgarian Lev',
+          symbol: 'jBGN',
+          address: '0x07DE211AEA1C1073228FcAc66554d7Ba9aff7d51',
+          decimals: 18,
+          image: 'https://bafybeiajsxftpyuxrh5rl5ie3gwa6fapcck7xn7gpv3ovcrsg6ymxfr4ty.ipfs.w3s.link/bgn.webp',
+          native: false,
+          permit: true,
+          currency: 'BGN'
+        },
+        {
+          name: 'Jarvis Synthetic Chinese Yuan',
+          symbol: 'jCNY',
+          address: '0x54A2b999c6b30a4eed4B73B4999C06BDDDFD0fE7',
+          decimals: 18,
+          image: 'https://polygonscan.com/token/images/jCNY_32.png',
+          native: false,
+          permit: true,
+          currency: 'CNY'
+        },
+        {
+          name: 'Jarvis Synthetic Colombian Peso',
+          symbol: 'jCOP',
+          address: '0xf70f69839D65b175060388B17ECdF9aCbc1C8239',
+          decimals: 18,
+          image: 'https://polygonscan.com/token/images/jCOP_32.png',
+          native: false,
+          permit: true,
+          currency: 'COP'
+        },
+        {
+          name: 'Jarvis Synthetic South Korean Won',
+          symbol: 'jKRW',
+          address: '0xDC352E314e47c6660FB581057F00d524E865510A',
+          decimals: 18,
+          image: 'https://polygonscan.com/token/images/jKRW_32.png',
+          native: false,
+          permit: true,
+          currency: 'KRW'
+        },
+        {
+          name: 'Jarvis Synthetic Mexican Peso',
+          symbol: 'jMXN',
+          address: '0x93E46F143f5c75E5b92F3383229330A1Ea83C901',
+          decimals: 18,
+          image: 'https://polygonscan.com/token/images/jMXN_32.png',
+          native: false,
+          permit: true,
+          currency: 'MXN'
+        },
+        {
+          name: 'Jarvis Synthetic Nigerian Naira',
+          symbol: 'jNGN',
+          address: '0xEeC0d978bfa65e0F08a63De79E26b9572d5373D1',
+          decimals: 18,
+          image: 'https://polygonscan.com/token/images/jNGN_32.png',
+          native: false,
+          permit: true,
+          currency: 'NGN'
+        },
+        {
+          name: 'Jarvis Synthetic New Zealand Dollar',
+          symbol: 'jNZD',
+          address: '0xA8D47ac0cb0E85Edaf9DF3FDC0FBB5A298cDD900',
+          decimals: 18,
+          image: 'https://polygonscan.com/token/images/jNZD_32.png',
+          native: false,
+          permit: true,
+          currency: 'NZD'
+        },
+        {
+          name: 'Jarvis Synthetic Philippine Peso',
+          symbol: 'jPHP',
+          address: '0x72C8C6757621b9b119aDE41a7472b31db0bDfff1',
+          decimals: 18,
+          image: 'https://polygonscan.com/token/images/jPHP_32_32.png',
+          native: false,
+          permit: true,
+          currency: 'PHP'
+        },
+        {
+          name: 'Jarvis Synthetic Franc CFA (CEMAC)',
+          symbol: 'jXAF',
+          address: '0x4a3F5f0A1617F265CE775C51C43C1d51f1C59c22',
+          decimals: 18,
+          image: 'https://bafybeicemsqywuf2xjpifpthd6imvvkkxic2u74tnu6rttsfg5hqyjep74.ipfs.w3s.link/xaf.png',
+          native: false,
+          permit: false,
+          currency: 'XAF'
+        },
+        {
+          name: 'Jarvis Synthetic Franc CFA (UEMOA)',
+          symbol: 'jXOF',
+          address: '0x472BdD9D3d7e3AF17FbA38EE7acb67DEB47f99bC',
+          decimals: 18,
+          image: 'https://bafybeidm2j4r2smnfhul7mpsosx6mg4nc44o3f44h5imfrqu4jwgb5kaui.ipfs.w3s.link/xof.png',
+          native: false,
+          permit: true,
+          currency: 'XOF'
+        },
+        {
+          name: 'Brazilian Digital Token',
+          symbol: 'BRZ',
+          address: '0x99543a35FD286255978A26c8659eed09b3f1C259',
+          decimals: 18,
+          image: 'https://www.brztoken.io/img/svgs/IMG_LOGOFOOTER.svg',
+          native: false,
+          permit: false,
+          currency: 'BRL'
         }
       ]
     },
