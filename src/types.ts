@@ -45,6 +45,7 @@ export interface CryptoAsset {
   name: string;
   symbol: string;
   address: string;
+  coin: string;
   decimals: number;
   image: string;
   native: boolean;
