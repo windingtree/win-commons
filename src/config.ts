@@ -398,7 +398,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         {
           name: 'Jarvis Synthetic Bulgarian Lev',
           symbol: 'jBGN',
-          address: '0x07DE211AEA1C1073228FcAc66554d7Ba9aff7d51',
+          address: '0x1308a11DE52304B88813196f1feA7c56D6f973F1',
           coin: '0x60E91fc3a60362ca44aea0263DBc4b96302f6ADe',
           decimals: 18,
           image: 'https://bafybeiajsxftpyuxrh5rl5ie3gwa6fapcck7xn7gpv3ovcrsg6ymxfr4ty.ipfs.w3s.link/bgn.webp',
@@ -409,7 +409,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         {
           name: 'Jarvis Synthetic Chinese Yuan',
           symbol: 'jCNY',
-          address: '0x54A2b999c6b30a4eed4B73B4999C06BDDDFD0fE7',
+          address: '0xD6bA6697ac5818Dc20641051F0361B07B2D4Aaa2',
           coin: '0x84526c812D8f6c4fD6C1a5B68713AFF50733E772',
           decimals: 18,
           image: 'https://polygonscan.com/token/images/jCNY_32.png',
@@ -420,7 +420,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         {
           name: 'Jarvis Synthetic Colombian Peso',
           symbol: 'jCOP',
-          address: '0xf70f69839D65b175060388B17ECdF9aCbc1C8239',
+          address: '0x210d576a7877b2280E13d922e4f498e62Ee30971',
           coin: '0xE6d222caAed5F5DD73A9713AC91C95782e80ACBf',
           decimals: 18,
           image: 'https://polygonscan.com/token/images/jCOP_32.png',
@@ -431,7 +431,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         {
           name: 'Jarvis Synthetic South Korean Won',
           symbol: 'jKRW',
-          address: '0xDC352E314e47c6660FB581057F00d524E865510A',
+          address: '0xC2FAEEE2d4Cd6e686fAcb5690A564356dBCc41a1',
           coin: '0xa22f6bc96f13bcC84dF36109c973d3c0505a067E',
           decimals: 18,
           image: 'https://polygonscan.com/token/images/jKRW_32.png',
@@ -442,7 +442,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         {
           name: 'Jarvis Synthetic Mexican Peso',
           symbol: 'jMXN',
-          address: '0x93E46F143f5c75E5b92F3383229330A1Ea83C901',
+          address: '0x76C337831b2FC492A850FFe3708D1139d43CA48B',
           coin: '0xBD1fe73e1f12bD2bc237De9b626F056f21f86427',
           decimals: 18,
           image: 'https://polygonscan.com/token/images/jMXN_32.png',
@@ -453,7 +453,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         {
           name: 'Jarvis Synthetic Nigerian Naira',
           symbol: 'jNGN',
-          address: '0xEeC0d978bfa65e0F08a63De79E26b9572d5373D1',
+          address: '0x86cC5096942c47e780f2adCaD6cfa6fd34Bfe238',
           coin: '0x182C76e977161f703Bb8f111047dF6C43CFaCc56',
           decimals: 18,
           image: 'https://polygonscan.com/token/images/jNGN_32.png',
@@ -475,7 +475,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         {
           name: 'Jarvis Synthetic Philippine Peso',
           symbol: 'jPHP',
-          address: '0x72C8C6757621b9b119aDE41a7472b31db0bDfff1',
+          address: '0x30aFfcD3E3ED9dA0c13479D9D03625B636814EE1',
           coin: '0x486880FB16408b47f928F472f57beC55AC6089d1',
           decimals: 18,
           image: 'https://polygonscan.com/token/images/jPHP_32_32.png',
@@ -486,7 +486,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         {
           name: 'Jarvis Synthetic Franc CFA (CEMAC)',
           symbol: 'jXAF',
-          address: '0x4a3F5f0A1617F265CE775C51C43C1d51f1C59c22',
+          address: '0x00201077bB4B725bCBEe929adbbA1C951Af2F4ca',
           coin: '0x98fAb5d1366DE24f152ea683A1f23338351C47EA',
           decimals: 18,
           image: 'https://bafybeicemsqywuf2xjpifpthd6imvvkkxic2u74tnu6rttsfg5hqyjep74.ipfs.w3s.link/xaf.png',
@@ -497,7 +497,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         {
           name: 'Jarvis Synthetic Franc CFA (UEMOA)',
           symbol: 'jXOF',
-          address: '0x472BdD9D3d7e3AF17FbA38EE7acb67DEB47f99bC',
+          address: '0x37A94baC267eF49CbB8bF0051690c83984E66773',
           coin: '0x4A1E068BC23fAeC08a5817A2A58258e3378d36f0',
           decimals: 18,
           image: 'https://bafybeidm2j4r2smnfhul7mpsosx6mg4nc44o3f44h5imfrqu4jwgb5kaui.ipfs.w3s.link/xof.png',
@@ -508,7 +508,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         {
           name: 'Brazilian Digital Token',
           symbol: 'BRZ',
-          address: '0x99543a35FD286255978A26c8659eed09b3f1C259',
+          address: '0x5785285dbbc4ba72818Ab5D4Cb8eE4E1225Be43d',
           coin: '0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f',
           decimals: 18,
           image: 'https://www.brztoken.io/img/svgs/IMG_LOGOFOOTER.svg',
