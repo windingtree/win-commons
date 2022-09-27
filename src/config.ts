@@ -464,7 +464,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         {
           name: 'Jarvis Synthetic New Zealand Dollar',
           symbol: 'jNZD',
-          address: '0xA8D47ac0cb0E85Edaf9DF3FDC0FBB5A298cDD900',
+          address: '0x30aFfcD3E3ED9dA0c13479D9D03625B636814EE1',
           coin: '0x6b526Daf03B4C47AF2bcc5860B12151823Ff70E0',
           decimals: 18,
           image: 'https://polygonscan.com/token/images/jNZD_32.png',
@@ -475,7 +475,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         {
           name: 'Jarvis Synthetic Philippine Peso',
           symbol: 'jPHP',
-          address: '0x30aFfcD3E3ED9dA0c13479D9D03625B636814EE1',
+          address: '0x2E23555a60d1c70F40B176863a0f366d11150088',
           coin: '0x486880FB16408b47f928F472f57beC55AC6089d1',
           decimals: 18,
           image: 'https://polygonscan.com/token/images/jPHP_32_32.png',
