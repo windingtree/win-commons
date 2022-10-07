@@ -249,7 +249,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           decimals: 18,
           image: 'https://bafybeib3jectyea4yc72lokdyjx7nhzgqvl7oyo4taacpoz7ak2tdeq4ma.ipfs.w3s.link/dai.webp',
           native: false,
-          permit: true,
+          permit: false,
           currency: 'USD'
         },
         {
