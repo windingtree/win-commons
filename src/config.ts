@@ -198,7 +198,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           symbol: 'USDT',
           address: '0x92276d981126e6D055C02fb756EB2fCd8DeC2Cb1',
           coin: '0x4ECaBa5870353805a9F068101A40E0f32ed605C6',
-          decimals: 18,
+          decimals: 6,
           image: 'https://bafybeihieb7drjnn6t3qu7yqpzkxxexwddqm6amztkzhtognckinogb42q.ipfs.w3s.link/usdt.png',
           native: false,
           permit: true,
@@ -249,7 +249,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           decimals: 18,
           image: 'https://bafybeib3jectyea4yc72lokdyjx7nhzgqvl7oyo4taacpoz7ak2tdeq4ma.ipfs.w3s.link/dai.webp',
           native: false,
-          permit: true,
+          permit: false,
           currency: 'USD'
         },
         {
@@ -268,7 +268,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           symbol: 'USDT',
           address: '0x92276d981126e6D055C02fb756EB2fCd8DeC2Cb1',
           coin: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f',
-          decimals: 18,
+          decimals: 6,
           image: 'https://bafybeihieb7drjnn6t3qu7yqpzkxxexwddqm6amztkzhtognckinogb42q.ipfs.w3s.link/usdt.png',
           native: false,
           permit: false,
