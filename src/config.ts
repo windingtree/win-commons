@@ -257,7 +257,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           symbol: 'USDC',
           address: '0x73B7D1A3799c8C2a73a15A1a4c079B42E817054a',
           coin: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
-          decimals: 18,
+          decimals: 6,
           image: 'https://bafybeihn6h3j36k44zhvxretauc6dy6w6eapjenzmita7pvwrelg4pksvi.ipfs.w3s.link/usdc.png',
           native: false,
           permit: true,
