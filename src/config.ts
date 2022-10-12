@@ -228,7 +228,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         }
       ]
     },
-    mode: ['prod']
+    mode: ['stage', 'prod']
   },
   {
     name: 'Polygon PoS Chain',
@@ -518,7 +518,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         }
       ]
     },
-    mode: ['prod']
+    mode: ['stage', 'prod']
   }
 ]);
 
