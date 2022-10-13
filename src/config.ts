@@ -23,6 +23,76 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
         {
           name: 'Native xDAI',
           symbol: 'xDAI',
+          address: '0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6',
+          coin: '0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9',
+          decimals: 18,
+          image: 'https://bafybeiesj7lzhl7gb3xnnazkozdh6cdsby2nmgphqc6ts6rnlf4mnczzbm.ipfs.dweb.link/8635.png',
+          native: true,
+          permit: false,
+          currency: 'USD'
+        },
+        {
+          name: 'Wrapped xDAI',
+          symbol: 'wxDAI',
+          address: '0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6',
+          coin: '0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9',
+          decimals: 18,
+          image: 'https://bafybeicj27bao6jkip26yhvc32tcyror5asop6dfxk3db67yfkxc6me6ym.ipfs.dweb.link/9021.png',
+          native: false,
+          permit: true,
+          currency: 'USD'
+        },
+        {
+          name: 'USDC',
+          symbol: 'USDC',
+          address: '0x0165878A594ca255338adfa4d48449f69242Eb8F',
+          coin: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
+          decimals: 18,
+          image: 'https://bafybeif5mtgb4mtvvqbhw2kdr4uruu5xm742vtwa3cwndpnsqdb2t4676m.ipfs.dweb.link/3408.png',
+          native: false,
+          permit: true,
+          currency: 'USD'
+        },
+        {
+          name: 'JPYC',
+          symbol: 'JPYC',
+          address: '0x0165878A594ca255338adfa4d48449f69242Eb8F',
+          coin: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
+          decimals: 18,
+          image: 'https://bafybeid73zglo2wfukmuriny5s2chgnn6wqn2mtbogscnmi56ylth6n52i.ipfs.w3s.link/jpyc.jpg',
+          native: false,
+          permit: true,
+          currency: 'JPY'
+        },
+        {
+          name: 'EURS',
+          symbol: 'EURS',
+          address: '0x0165878A594ca255338adfa4d48449f69242Eb8F',
+          coin: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
+          decimals: 18,
+          image: 'https://bafybeiai3bfegbupyi2fzjcq7yq3s4x3d3jcxnfqpr4epivq5vqurkt6h4.ipfs.w3s.link/eurs.png',
+          native: false,
+          permit: true,
+          currency: 'EUR'
+        }
+      ]
+    },
+    mode: ['dev']
+  },
+  {
+    name: 'Sokol Testnet',
+    chainId: 77,
+    rpc: 'https://sokol.poa.network',
+    blockExplorer: 'https://blockscout.com/poa/sokol',
+    currency: 'xDAI',
+    decimals: 18,
+    contracts: {
+      ledger: '0x3196f354b7a95413E30889D1C6cE5074b10c43f5',
+      winPay: '0x6f2fBD652A99Db4b8143c8383Ae39b5459268685',
+      assets: [
+        {
+          name: 'Native xDAI',
+          symbol: 'xDAI',
           address: '0xd2D96356ab744f3681e10FE9fd87BF06D58FA49C',
           coin: '0x3A5f059bf8e5f3d0DcDB5658cfc16190724f3D92',
           decimals: 18,
@@ -73,76 +143,6 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: 'https://bafybeiai3bfegbupyi2fzjcq7yq3s4x3d3jcxnfqpr4epivq5vqurkt6h4.ipfs.w3s.link/eurs.png',
           native: false,
           permit: false,
-          currency: 'EUR'
-        }
-      ]
-    },
-    mode: ['dev']
-  },
-  {
-    name: 'Sokol Testnet',
-    chainId: 77,
-    rpc: 'https://sokol.poa.network',
-    blockExplorer: 'https://blockscout.com/poa/sokol',
-    currency: 'xDAI',
-    decimals: 18,
-    contracts: {
-      ledger: '0x3196f354b7a95413E30889D1C6cE5074b10c43f5',
-      winPay: '0x6f2fBD652A99Db4b8143c8383Ae39b5459268685',
-      assets: [
-        {
-          name: 'Native xDAI',
-          symbol: 'xDAI',
-          address: '0x25149dE5afe2043C61687AD136527d2167EFC241',
-          coin: '0x63CD2DF580Df5509806A204090eDdCc6F3493Bf5',
-          decimals: 18,
-          image: 'https://bafybeiesj7lzhl7gb3xnnazkozdh6cdsby2nmgphqc6ts6rnlf4mnczzbm.ipfs.dweb.link/8635.png',
-          native: true,
-          permit: false,
-          currency: 'USD'
-        },
-        {
-          name: 'Wrapped xDAI',
-          symbol: 'wxDAI',
-          address: '0x25149dE5afe2043C61687AD136527d2167EFC241',
-          coin: '0x63CD2DF580Df5509806A204090eDdCc6F3493Bf5',
-          decimals: 18,
-          image: 'https://bafybeicj27bao6jkip26yhvc32tcyror5asop6dfxk3db67yfkxc6me6ym.ipfs.dweb.link/9021.png',
-          native: false,
-          permit: true,
-          currency: 'USD'
-        },
-        {
-          name: 'USDC',
-          symbol: 'USDC',
-          address: '0x1C375919362730AC69c5ACffeC775F11c9b75cF2',
-          coin: '0x0462C345320C7Ed3071cd1426e6B62472C5bA96d',
-          decimals: 18,
-          image: 'https://bafybeif5mtgb4mtvvqbhw2kdr4uruu5xm742vtwa3cwndpnsqdb2t4676m.ipfs.dweb.link/3408.png',
-          native: false,
-          permit: true,
-          currency: 'USD'
-        },
-        {
-          name: 'JPYC',
-          symbol: 'JPYC',
-          address: '0x1C375919362730AC69c5ACffeC775F11c9b75cF2',
-          coin: '0x0462C345320C7Ed3071cd1426e6B62472C5bA96d',
-          decimals: 18,
-          image: 'https://bafybeid73zglo2wfukmuriny5s2chgnn6wqn2mtbogscnmi56ylth6n52i.ipfs.w3s.link/jpyc.jpg',
-          native: false,
-          permit: true,
-          currency: 'JPY'
-        },
-        {
-          name: 'EURS',
-          symbol: 'EURS',
-          address: '0x1C375919362730AC69c5ACffeC775F11c9b75cF2',
-          coin: '0x0462C345320C7Ed3071cd1426e6B62472C5bA96d',
-          decimals: 18,
-          image: 'https://bafybeiai3bfegbupyi2fzjcq7yq3s4x3d3jcxnfqpr4epivq5vqurkt6h4.ipfs.w3s.link/eurs.png',
-          native: false,
-          permit: true,
           currency: 'EUR'
         }
       ]
