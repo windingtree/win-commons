@@ -72,3 +72,17 @@ export interface NetworkInfo extends Network {
   blockExplorer: string;
   mode: NetworkMode[];
 }
+
+export interface WiseCurrency {
+  code: string,
+  name: string
+}
+
+export type CurrencyMeta = {
+  [code: string]: {
+    name: string;
+    symbol: string;
+    rateFromBaseCurrency?: number;
+    decimals?: number;
+  };
+};
