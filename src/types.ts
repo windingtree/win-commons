@@ -86,3 +86,7 @@ export type CurrencyMeta = {
     symbol: string;
   };
 };
+
+export type Duplicates = {
+  [code: string]: number;
+};

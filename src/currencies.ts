@@ -1,4 +1,4 @@
-import { CurrencyMeta, WiseCurrency } from './types';
+import { CurrencyMeta, Duplicates, WiseCurrency } from './types';
 
 export const currencySymbols = {
   AED: 'د.إ',
@@ -244,7 +244,7 @@ export const preferredCurrencies: WiseCurrency[] = [
   { code: 'ZMW', name: 'Zambian kwacha', decimals: 2 }
 ];
 
-export const dups = Object.entries(currencySymbols).reduce((result, [_, symbol]) => {
+export const dups: Duplicates = Object.entries(currencySymbols).reduce((result, [_, symbol]) => {
   if (result[symbol]) {
     result[symbol] = result[symbol] + 1;
   } else {
