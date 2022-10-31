@@ -169,7 +169,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/xDAI.svg',
           native: true,
           permit: false,
-          currency: 'USD'
+          currency: 'USD',
+          ramp: 'https://buy.ramp.network/?swapAsset=XDAI_XDAI&userAddress='
         },
         {
           name: 'Wrapped xDAI',
@@ -191,7 +192,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/USDC.svg',
           native: false,
           permit: true,
-          currency: 'USD'
+          currency: 'USD',
+          ramp: 'https://buy.mtpelerin.com/?type=direct-link&bdc=USDC&net=xdai_mainnet&addr='
         },
         {
           name: 'Tether (USDT)',
@@ -202,7 +204,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/USDT.svg',
           native: false,
           permit: true,
-          currency: 'USD'
+          currency: 'USD',
+          ramp: 'https://buy.mtpelerin.com/?type=direct-link&bdc=USDT&net=xdai_mainnet&addr='
         },
         {
           name: 'Jarvis Synthetic Euro',
@@ -213,7 +216,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/jEUR.svg',
           native: false,
           permit: true,
-          currency: 'EUR'
+          currency: 'EUR',
+          ramp: 'https://buy.mtpelerin.com/?type=direct-link&bdc=jEUR&net=xdai_mainnet&addr='
         },
         {
           name: 'Jarvis Synthetic Swiss Franc',
@@ -224,7 +228,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/jCHF.svg',
           native: false,
           permit: true,
-          currency: 'CHF'
+          currency: 'CHF',
+          ramp: 'https://buy.mtpelerin.com/?type=direct-link&bdc=jCHF&net=xdai_mainnet&addr='
         }
       ]
     },
@@ -250,7 +255,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/DAI.svg',
           native: false,
           permit: false,
-          currency: 'USD'
+          currency: 'USD',
+          ramp: 'https://buy.ramp.network/?swapAsset=MATIC_DAI&userAddress='
         },
         {
           name: 'USD Coin',
@@ -261,7 +267,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/USDC.svg',
           native: false,
           permit: true,
-          currency: 'USD'
+          currency: 'USD',
+          ramp: 'https://buy.ramp.network/?swapAsset=MATIC_USDC&userAddress='
         },
         {
           name: 'Tether (USDT)',
@@ -272,7 +279,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/USDT.svg',
           native: false,
           permit: false,
-          currency: 'USD'
+          currency: 'USD',
+          ramp: 'https://buy.mtpelerin.com/?type=direct-link&bdc=USDT&net=matic_mainnet&addr='
         },
         {
           name: 'Monerium EUR emoney',
@@ -294,7 +302,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/EURs.svg',
           native: false,
           permit: false,
-          currency: 'EUR'
+          currency: 'EUR',
+          ramp: 'https://buy.mtpelerin.com/?type=direct-link&bdc=EURS&net=matic_mainnet&addr='
         },
         {
           name: 'Jarvis Synthetic Euro',
@@ -305,7 +314,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/jEUR.svg',
           native: false,
           permit: true,
-          currency: 'EUR'
+          currency: 'EUR',
+          ramp: 'https://buy.mtpelerin.com/?type=direct-link&bdc=jEUR&net=matic_mainnet&addr='
         },
         {
           name: 'Jarvis Synthetic Swiss Franc',
@@ -316,7 +326,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/jCHF.svg',
           native: false,
           permit: true,
-          currency: 'CHF'
+          currency: 'CHF',
+          ramp: 'https://buy.mtpelerin.com/?type=direct-link&bdc=jCHF&net=matic_mainnet&addr='
         },
         {
           name: 'Jarvis Synthetic British Pound',
@@ -327,7 +338,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/jGBP.svg',
           native: false,
           permit: true,
-          currency: 'GBP'
+          currency: 'GBP',
+          ramp: 'https://buy.mtpelerin.com/?type=direct-link&bdc=jGBP&net=matic_mainnet&addr='
         },
         {
           name: 'Jarvis Synthetic Australian Dollar',
@@ -338,7 +350,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/jAUD.svg',
           native: false,
           permit: true,
-          currency: 'AUD'
+          currency: 'AUD',
+          ramp: 'https://buy.mtpelerin.com/?type=direct-link&bdc=jAUD&net=matic_mainnet&addr='
         },
         {
           name: 'Jarvis Synthetic Canadian Dollar',
@@ -349,7 +362,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/jCAD.svg',
           native: false,
           permit: true,
-          currency: 'CAD'
+          currency: 'CAD',
+          ramp: 'https://buy.mtpelerin.com/?type=direct-link&bdc=jCAD&net=matic_mainnet&addr='
         },
         {
           name: 'Jarvis Synthetic Japanese Yen',
@@ -360,7 +374,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/jJPY.svg',
           native: false,
           permit: true,
-          currency: 'JPY'
+          currency: 'JPY',
+          ramp: 'https://buy.mtpelerin.com/?type=direct-link&bdc=jJPY&net=matic_mainnet&addr='
         },
         {
           name: 'Jarvis Synthetic Swedish Krona',
@@ -371,7 +386,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/jSEK.svg',
           native: false,
           permit: true,
-          currency: 'SEK'
+          currency: 'SEK',
+          ramp: 'https://buy.mtpelerin.com/?type=direct-link&bdc=jSEK&net=matic_mainnet&addr='
         },
         {
           name: 'Jarvis Synthetic Singapore Dollar',
@@ -382,7 +398,8 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/jSGD.svg',
           native: false,
           permit: true,
-          currency: 'SGD'
+          currency: 'SGD',
+          ramp: 'https://buy.mtpelerin.com/?type=direct-link&bdc=jSGD&net=matic_mainnet&addr='
         },
         {
           name: 'Jarvis Synthetic Polish Zloty',
