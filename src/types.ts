@@ -51,6 +51,7 @@ export interface CryptoAsset {
   native: boolean;
   permit: boolean;
   currency: AssetCurrency;
+  ramp?: string;
 }
 
 export interface Network {
