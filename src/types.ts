@@ -63,6 +63,7 @@ export type NetworkMode = 'dev' | 'stage' | 'prod';
 
 export interface NetworkInfo extends Network {
   currency: string;
+  ramp?: string;
   decimals: number;
   rpc: string;
   contracts: {
