@@ -256,11 +256,11 @@ export const dups: Duplicates = Object.entries(currencySymbols).reduce((result, 
 
 export const currencySymbolMap: Record<string, string> = Object.entries(currencySymbols).reduce(
   (result, [key, symbol]) => {
-    if (['GBP', 'USD'].includes(key)) {
-      // special case for GBP - no prefix
+    if (['GBP', 'USD', 'EUR'].includes(key)) {
+      // special case for GBP, USD, EUR
       result[key] = symbol;
-    } else if (dups[symbol] > 1) {
-      result[key] = key.slice(0, 2) + symbol;
+      // } else if (dups[symbol] > 1) {
+      //   result[key] = key.slice(0, 2) + symbol;
     } else {
       result[key] = symbol;
     }
