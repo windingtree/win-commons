@@ -155,6 +155,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
     rpc: 'https://poa-xdai-archival.gateway.pokt.network/v1/lb/626573f1aa777e00391a8d04',
     blockExplorer: 'https://blockscout.com/xdai/mainnet',
     currency: 'xDAI',
+    ramp: 'https://buy.ramp.network/?swapAsset=XDAI_XDAI&userAddress=',
     decimals: 18,
     contracts: {
       ledger: '0xc2024b4Ff3764b8AEb5FCfB4f248124B80A2367a',
@@ -241,6 +242,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
     rpc: 'https://poly-mainnet.gateway.pokt.network/v1/lb/626573f1aa777e00391a8d04',
     blockExplorer: 'https://polygonscan.com',
     currency: 'MATIC',
+    ramp: 'https://buy.ramp.network/?swapAsset=MATIC_MATIC&userAddress=',
     decimals: 18,
     contracts: {
       ledger: '0xc2024b4Ff3764b8AEb5FCfB4f248124B80A2367a',
