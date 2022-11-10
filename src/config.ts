@@ -257,7 +257,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/DAI.svg',
           native: false,
           permit: false,
-          permitSalt: true,
+          permitSalt: '0x0000000000000000000000000000000000000000000000000000000000000089',
           currency: 'USD',
           ramp: 'https://buy.ramp.network/?swapAsset=MATIC_DAI&userAddress='
         },
@@ -270,7 +270,7 @@ export const allowedNetworks: readonly NetworkInfo[] = Object.freeze([
           image: '/images/tokens/USDC.svg',
           native: false,
           permit: true,
-          permitSalt: true,
+          permitSalt: '0x0000000000000000000000000000000000000000000000000000000000000089',
           currency: 'USD',
           ramp: 'https://buy.ramp.network/?swapAsset=MATIC_USDC&userAddress='
         },
