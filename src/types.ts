@@ -50,6 +50,7 @@ export interface CryptoAsset {
   image: string;
   native: boolean;
   permit: boolean;
+  permitSalt?: boolean;
   currency: AssetCurrency;
   ramp?: string;
 }
