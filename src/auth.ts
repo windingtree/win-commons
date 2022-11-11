@@ -1,6 +1,6 @@
 import type { Provider, SignatureValue, SignatureDomain } from './types';
 import { utils } from 'ethers';
-import { Signer, TypedDataSigner } from '@ethersproject/abstract-signer';
+import { Wallet } from '@ethersproject/abstract-signer';
 
 // A signature types
 export const types = {
@@ -37,7 +37,7 @@ export const createAuthSignature = async (provider: Provider, secret: string): P
 
 export const createAuthSignatureWithSigner = async (
   chainId: number,
-  signer: Signer & TypedDataSigner,
+  signer: Wallet,
   secret: string
 ): Promise<string> => {
   const signerAddress = await signer.getAddress();
