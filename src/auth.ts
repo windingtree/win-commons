@@ -1,6 +1,5 @@
 import type { Provider, SignatureValue, SignatureDomain } from './types';
-import { utils } from 'ethers';
-import { Wallet } from '@ethersproject/abstract-signer';
+import { utils, Wallet } from 'ethers';
 
 // A signature types
 export const types = {
