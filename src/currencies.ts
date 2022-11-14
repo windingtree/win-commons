@@ -259,9 +259,26 @@ export const currencySymbolMap: Record<string, string> = Object.entries(currency
     if (['GBP', 'USD', 'EUR'].includes(key)) {
       // special case for GBP, USD, EUR
       result[key] = symbol;
-      // } else if (dups[symbol] > 1) {
-      //   result[key] = key.slice(0, 2) + symbol;
     } else {
+      // using the 3-letter code as symbol
+      result[key] = key;
+    }
+
+    return result;
+  },
+  {}
+);
+
+export const prefixedCurrencySymbolMap: Record<string, string> = Object.entries(currencySymbols).reduce(
+  (result, [key, symbol]) => {
+    if (['GBP', 'USD', 'EUR'].includes(key)) {
+      // special case for GBP, USD, EUR
+      result[key] = symbol;
+    } else if (dups[symbol] > 1) {
+      // return prefixed symbol for duplicates
+      result[key] = key.slice(0, 2) + symbol;
+    } else {
+      // return unique symbols
       result[key] = symbol;
     }
 
